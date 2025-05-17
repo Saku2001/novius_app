@@ -1,7 +1,7 @@
 export default function CreateArticle() {
   return (
     <section
-      id="write-"
+      id="write-article"
       className="min-h-screen bg-white text-black flex justify-center items-center"
     >
       <h2 className="text-4xl font-bold">Create a New Article</h2>
