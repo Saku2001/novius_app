@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="bg-primary">
         <ul className="h-[85px] flex justify-center items-center gap-[75px] text-[24px] text-secondary">
           <li>
-            <a href="#" className="hover:text-white">
+            <a href="#write-article" className="hover:text-white">
               write
             </a>
           </li>
