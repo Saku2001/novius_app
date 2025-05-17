@@ -36,3 +36,8 @@
   height: 40px; /* or whatever height fits your design */
   width: auto;
 }
+.custom-border {
+  border-bottom: 2px solid "#641648";
+  margin: 0 173px;
+  background-color: "#DBBFD1";
+}

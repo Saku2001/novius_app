@@ -1,29 +1,18 @@
 export default function Banner() {
   return (
-    <div className="flex justify-center items-center h-[600px] bg-gradient-to-b from-gray-800 to-white px-4">
-      <div className="w-full max-w-5xl p-10 rounded-xl shadow-lg bg-white/10 border border-gray-500">
-        <div className="text-center">
-          <h1 className="text-5xl font-tinos font-bold leading-[5rem] text-white">
-            <span className="text-primary border-4 border-primary px-1 py-1 rounded">
-              Write
-            </span>{" "}
-            Today, Inspire Tomorrow.
+    <div className="flex justify-start items-center h-[calc(100vh-100px)] bg-primary px-4">
+      <div className="w-1/2 max-w-5xl h-full  rounded-none flex items-center pt-6">
+        <div className="pl-[173px]  pb-16 text-left">
+          {" "}
+          {/* pt-12 ≈ 48px, pb-16 = 64px */}
+          <h1 className="text-[74px] font-lugrasimo font-bold leading-tight text-black">
+            <span className="text-secondary px-1 py-1 rounded">Write</span>
             <br />
-            Inspiring{" "}
-            <span className="text-primary border-4 border-primary px-1 py-1 rounded">
-              Stories
-            </span>
-            , One{" "}
-            <span className="text-primary border-4 border-primary px-1 py-1 rounded">
-              Article
-            </span>{" "}
-            at a Time.
+            today
             <br />
-            Where{" "}
-            <span className="text-primary border-4 border-primary px-2 py-1 rounded">
-              Ideas
-            </span>{" "}
-            Meet the World.
+            inspire
+            <br />
+            tomorrow.
           </h1>
         </div>
       </div>

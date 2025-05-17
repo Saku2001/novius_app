@@ -7,11 +7,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#641648", // you can name it anything like 'brand', 'main', etc.
-        secondary: "#1F1F1F",
+        primary: "#DBBFD1", // you can name it anything like 'brand', 'main', etc.
+        secondary: "#641648",
+        third: "#371A2C",
       },
       fontFamily: {
         tinos: ['Tinos', 'serif'],
+        lugrasimo: ['Lugrasimo', 'cursive'],
+      },
+       backgroundImage: {
+        'radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
     },
   },
